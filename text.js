@@ -38,7 +38,7 @@ lines.push(kPete)
 admireBMXS = 'You take a moment to appreciate your beautiful mascot, then walk into Hillenbrand. (END OF PATH)'
 lines.push(admireBMXS)
 //8
-kickBMXS = 'You run up to the train, kick the front grate, and break your foot. You then hobble your way into Hillenbrand. (END OF PATH)'
+kickBMXS = 'You run up to the train, kick the side panel, and break your foot. You then hobble your way into Hillenbrand. (END OF PATH)'
 lines.push(kickBMXS)
 
 //9

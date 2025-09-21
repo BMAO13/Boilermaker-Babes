@@ -249,7 +249,7 @@ const textNodes = [
   {
     //QUIZ Q2
     id: 9,
-    image: 'images/train.jpg',
+    image: 'images/quiz.PNG',
     text: lines[9],
     options: [
       {
@@ -267,7 +267,7 @@ const textNodes = [
   {
     //QUIZ Q3
     id: 10,
-    image: 'images/train.jpg',
+    image: 'images/quiz.PNG',
     text: lines[10],
     options: [
       {
