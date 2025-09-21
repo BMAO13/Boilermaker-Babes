@@ -69,7 +69,7 @@ const textNodes = [
   {
     //INTRO
     id: 0,
-    image: 'images/train.jpg',
+    image: 'images/quiz.PNG',
     text: lines[0],
     options: [
       {
@@ -85,7 +85,7 @@ const textNodes = [
   {
     //QUIZ Q1
     id: 1,
-    image: 'images/train.jpg',
+    image: 'images/quiz.PNG',
     text: lines[1],
     options: [
       {
@@ -103,21 +103,36 @@ const textNodes = [
   {
     //DONT TAKE QUIZ AND LEAVE STEWART. Star
     id: 2,
+    image: 'images/star bump.PNG',
     text: lines[2],
     options: [
       {
         text: 'Ignore it and keep walking.',
-        nextText: 3
+        nextText: 1000
       },
       {
         text: 'Kick it.',
-        nextText: 4
+        nextText: 1001
       }
+    ]
+  },
+  {
+    //DONT TAKE QUIZ AND LEAVE STEWART. Star
+    id: 1000,
+    image: 'images/ignore star.PNG',
+    text: '',
+    options: [
+      {
+        text: 'Next',
+        nextText: 3
+      },
+     
     ]
   },
   {
     //ignore star
     id: 3,
+    image: 'images/pete approaches.PNG',
     text: lines[3],
     options: [
       {
@@ -132,7 +147,21 @@ const textNodes = [
   },
   {
     //KICK STAR
+    id: 1001,
+    image: 'images/kick star.PNG',
+    text: '',
+    options: [
+      {
+        text: 'Next',
+        nextText: 4
+      },
+      
+    ]
+  },
+  {
+    //KICK STAR
     id: 4,
+    image: 'images/pete approaches.PNG',
     text: lines[4],
     options: [
       {
