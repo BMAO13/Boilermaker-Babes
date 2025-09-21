@@ -42,7 +42,7 @@ function selectOption(option) {
 const textNodes = [
     {
         id: 1,
-        text: 'Do you take the quiz?',
+        text: 'Do you take the quiz??????ß',
         options: [
             {
                 text: 'Yes',   
@@ -63,3 +63,4 @@ const textNodes = [
     }
 ];
 startGame()
+
