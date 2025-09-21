@@ -383,8 +383,9 @@ const textNodes = [
     ],
   },
   {
-    //bigHead
+    //to be continued
     id: 17,
+    image: 'images/toBeContinued.PNG',
     text: '',
     options: [
       {
