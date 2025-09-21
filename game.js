@@ -2,7 +2,6 @@ const textElement = document.getElementById('text')
 const optionButtonsElement = document.getElementById('option-buttons')
 
 let state = {}
-
 function startGame() {
   state = {}
   showTextNode(1)
@@ -38,6 +37,10 @@ function selectOption(option) {
   state = Object.assign(state, option.setState)
   showTextNode(nextTextNodeId)
 }
+function runDialog(arr, i){
+  return arr[i];
+}
+let score = 0
 
 const textNodes = [
     {
@@ -48,6 +51,7 @@ const textNodes = [
                 text: 'Yes',   
                 setState: {takeQuiz: true},
                 nextText: 2
+                
             },
             {
                 text: 'No',
@@ -57,7 +61,7 @@ const textNodes = [
     },
     {
         id: 2,
-        text: 'Quiz question 1',
+        text: runDialog(),
         requiredState: (currentState) => currentState.takeQuiz,
         setState: {takeQuiz: true}
     }
