@@ -166,17 +166,44 @@ const textNodes = [
     options: [
       {
         text: 'High-Five Purdue Pete',
-        nextText: 5
+        nextText: 1002
       },
       {
         text: 'Kick him.',
-        nextText: 6
+        nextText: 1003
       }
+    ]
+  },
+  {
+    //KICK pete
+    id: 1002,
+    image: 'images/high five.PNG',
+    text: '',
+    options: [
+      {
+        text: 'Next',
+        nextText: 5
+      },
+      
+    ]
+  },
+  {
+    //KICK pete
+    id: 1003,
+    image: 'images/kPete.PNG',
+    text: '',
+    options: [
+      {
+        text: 'Next',
+        nextText: 6
+      },
+      
     ]
   },
   {
     //HIGH FIVE PETE -> BMXS
     id: 5,
+    image: 'images/see bmxs.PNG',
     text: lines[5],
     options: [
       {
@@ -192,6 +219,7 @@ const textNodes = [
   {
     //Kick Pete -> BMXS
     id: 6,
+    image: 'images/see bmxs.PNG',
     text: lines[6],
     options: [
       {
@@ -207,6 +235,7 @@ const textNodes = [
   {
     //admire bmxs
     id: 7,
+    image: 'images/admire.PNG',
     text: lines[7],
     
   },
