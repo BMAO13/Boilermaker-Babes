@@ -390,8 +390,17 @@ const textNodes = [
 
     ],
   },
-
-
+  {
+    //choose to sit next to pp
+    id: 17,
+    text: lines[17],
+    options: [
+      {
+        text: 'Yes',
+        nextText: 18 //
+      }
+    ]
+  }
 
   
 ]
