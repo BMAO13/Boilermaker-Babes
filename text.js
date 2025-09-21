@@ -24,7 +24,7 @@ high5 += 'Feeling that Boilermaker energy in your spirit, you continue your stro
 high5 += 'you see the Boilermaker Xrta Special parked in the street…It\'s just sitting there…'
 lines.push(high5)
 kPete = 'Startled by his presence and mistaking his raised hand as a threat, you kick him in the stomach and run off towards Hillenbrand. Just as you\'re about to reach Hillenbrand, '
-kPete += 'you see the Boilermaker Xrta Special parked in the street…It\'s just sitting there…'
+kPete += 'you see the Boilermaker Xtra Special parked in the street…It\'s just sitting there…'
 lines.push(kPete)
 
 admireBMXS = 'You take a moment to appreciate your beautiful mascot, then walk into Hillenbrand. (END OF PATH)'

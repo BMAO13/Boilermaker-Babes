@@ -70,6 +70,11 @@ const textNodes = [
     ]
   },
   {
+    id: 1,
+    text: lines[1],
+    options: []
+  },
+  {
     //DONT TAKE QUIZ AND LEAVE STEWART. Star
     id: 2,
     text: lines[2],
