@@ -69,6 +69,7 @@ const textNodes = [
   {
     //INTRO
     id: 0,
+    setState: {bmxs: 0, pete: 0, star: 0},
     image: 'images/quiz.PNG',
     text: lines[0],
     options: [
@@ -237,6 +238,13 @@ const textNodes = [
     id: 7,
     image: 'images/admire.PNG',
     text: lines[7],
+    options: [
+      {
+        text: 'Restart',
+        nextText: 0
+      },
+
+    ],
     
   },
   {
@@ -244,6 +252,13 @@ const textNodes = [
     id: 8,
     image: 'images/kBmxs.PNG',
     text: lines[8],
+    options: [
+      {
+        text: 'Restart',
+        nextText: 0
+      },
+
+    ],
     
   },
   {
@@ -339,7 +354,7 @@ const textNodes = [
       {
         text: 'Next', 
         //sleepPPPPPPPPP
-        nextText: 30
+        nextText: 17
       },
 
     ],
@@ -357,50 +372,29 @@ const textNodes = [
       {
         text: 'Help Starship', 
         setState:{pete:-1, star: 1},
-        nextText: 18
-      },
-      {
-        text: 'Help Neither', 
-        setState:{pete:-1},
-        nextText: 19
-      },
-
-    ],
-  },
-  {
-    //help pete
-    id: 16,
-    text: lines[16],
-    options: [
-      {
-        text: 'Help Purdue Pete', 
-        setState:{pete:1, star: 1},
         nextText: 17
       },
       {
-        text: 'Help Starship', 
-        setState:{pete:-1, star: 1},
-        nextText: 18
-      },
-      {
         text: 'Help Neither', 
         setState:{pete:-1},
-        nextText: 19
+        nextText: 17
       },
 
     ],
   },
   {
-    //choose to sit next to pp
+    //bigHead
     id: 17,
-    text: lines[17],
+    text: '',
     options: [
       {
-        text: 'Yes',
-        nextText: 18 //
-      }
-    ]
-  }
+        text: 'Restart',
+        nextText: 0
+      },
+
+    ],
+  },
+ 
 
   
 ]
