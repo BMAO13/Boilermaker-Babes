@@ -137,11 +137,11 @@ const textNodes = [
     options: [
       {
         text: 'High-Five Purdue Pete',
-        nextText: 5
+        nextText: 1002
       },
       {
         text: 'Kick him.',
-        nextText: 6
+        nextText: 1003
       }
     ]
   },
@@ -242,6 +242,7 @@ const textNodes = [
   {
     //kick bmxs
     id: 8,
+    image: 'images/kBmxs.PNG',
     text: lines[8],
     
   },
