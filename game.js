@@ -42,7 +42,7 @@ function selectOption(option) {
 const textNodes = [
     {
         id: 1,
-        text: 'Do you take the quiz??????ß',
+        text: 'Do you take the quiz?',
         options: [
             {
                 text: 'Yes',   
